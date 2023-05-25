@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Link hacia los enlaces de BootStrap-->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <header>
+        <!--Barra de navegación-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="/imagenes/Logo.png" width="auto" height="60" alt="Logo Driving Practice Simulator">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 justify-content-end">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#SobreNosotros">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#QueHacemos">¿Qué hacemos?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#NuestrosClientes">Nuestros Clientes</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!--Banner-->
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/imagenes/slide1.jpg" class="d-block w-100 " alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Consigue tu licencia con honores</h5>
+                        <p>Te garantizamos una nota aprobatoria gracias a nuestras enseñanzas.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/imagenes/slide2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Practica sin riesgo</h5>
+                        <p>Gracias a que practicas de forma virtual, podrás manejar sin preocupaciones.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/imagenes/slide3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>¡Realmente es como la vida real!</h5>
+                        <p>Nos tomamos muy enserio tu aprendizaje y lo hacemos lo más realista posible.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <!--Sobre Nosotros
+        <div class="SobreNosotros m-5 id="SobreNosotros">
+            <div class="titulo justify-content-center d-flex w-100">
+                <h1 class="font-weight-bold">Sobre Nosotros</h1>
+            </div>
+
+        </div>
+-->
+        <!--¿Qué hacemos?-->
+        <div class="QueHacemos m-5" id="QueHacemos">
+            <div class="titulo justify-content-center d-flex w-100">
+                <h1 class="font-weight-bold">¿Qué Hacemos?</h1>
+            </div>
+            <div class="row">
+                <div class="col-6 p-5">
+                    <img src="/imagenes/SobreNosotrosIMG.jpg" class="img-fluid" alt="Responsive image"
+                        style="border-radius: 10px;">
+                </div>
+
+                <div class="col-6 p-5">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Te brindamos un software que simula la conducción</li>
+                        <li class="list-group-item">Nos preocupamos por tu aprendizaje</li>
+                        <li class="list-group-item">Reducimos el riesgo durante la enseñanza</li>
+                        <li class="list-group-item">Aumenta y estimula tu confianza detrás del volante</li>
+                        <li class="list-group-item">Perfecciona tus habilidades al conducir</li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+        <!--Nuestros Clientes-->
+
+        <div class="NuestrosClientes m-5" id="NuestrosClientes">
+            <div class="titulo justify-content-center d-flex w-100">
+
+                <h1 class="font-weight-bold">Nuestros Clientes</h1>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="card m-5">
+                        <img class="card-img-top" src="/imagenes/cliente-0.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">"Gracias al simulador, pude prepararme correctamente sin miedo a tener
+                                un accidente real".</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card m-5">
+                        <img class="card-img-top" src="/imagenes/cliente-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">"Antes tenía malas practicas de conducción, ahora manejo de manera más
+                                responsable y conozco mejor las normas".</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card m-5">
+                        <img class="card-img-top" src="/imagenes/cliente-2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">"Con el simulador pude obtener mi licencia de conducir al primer
+                                intento y disfrutando de mi proceso de aprendizaje".</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-3">
+                    <div class="card m-5">
+                        <img class="card-img-top" src="/imagenes/cliente-3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">"Recien cumplí la mayoría de edad y gracias al simulador ya obtuve mi
+                                licencia".</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="pt-4 my-md-5 pt-md-5 border-top d-flex justify-content-around">
+        <div class="row ">
+            <div class="col-6 col-md">
+                <h5 class="font-weight-bold">Features</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a href="#">Rapido</a></li>
+                    <li><a href="#">Confiable</a></li>
+                    <li><a href="#">Preciso</a></li>
+                    <li><a href="#">Facil de usar</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5 class="font-weight-bold">Resources</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a href="#">Resource</a></li>
+                    <li><a href="#">Another</a></li>
+                    <li><a href="#">Final resource</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <h5 class="font-weight-bold">About</h5>
+                <ul class="list-unstyled text-small">
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Locations</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    </div>
+</body>
+
+</html>
