@@ -37,14 +37,14 @@
 
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0 justify-content-end">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#SobreNosotros">Sobre Nosotros</a>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#QueHacemos">¿Qué hacemos?</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#NuestrosClientes">Nuestros Clientes</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#Contactemos">Contactemos</a>
                     </li>
                 </ul>
             </div>
@@ -125,6 +125,7 @@
 
         </div>
 
+        <div class="dropdown-divider"></div>
 
         <!--Nuestros Clientes-->
 
@@ -174,9 +175,40 @@
                 </div>
             </div>
         </div>
+
+        <div class="dropdown-divider"></div>
+        
+        <!--Contactemos-->
+        <div id="Contactemos" class="m-5">
+            <div class="row d-flex justify-content-center w-100 ">
+                <h1 class="font-weight-bold">Contactemos</h1>
+            </div>
+            <div class="row d-flex justify-content-center w-100 mt-5">
+                <form class="w-50">
+                    <div class="form-group">
+                        <label for="FirstName">Nombres</label>
+                        <input type="text" id="FirstName" aria-label="First name" class="form-control">
+
+                        <label for="LastName">Apellidos</label>
+                        <input type="text" id="LastName" aria-label="Last name" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="FormControlTextarea">Información Adicional</label>
+                        <textarea class="form-control" id="FormControlTextarea" rows="3"></textarea>
+                    </div>
+
+                    <button type="submit" value="submit" class="btn btn-warning">Enviar</button>
+                </form>
+            </div>
+        </div>
     </main>
 
-    <footer class="pt-4 my-md-5 pt-md-5 border-top d-flex justify-content-around">
+    <footer class="pt-4  d-flex justify-content-around">
         <div class="row ">
             <div class="col-6 col-md">
                 <h5 class="font-weight-bold">Features</h5>
